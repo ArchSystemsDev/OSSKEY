@@ -1,0 +1,33 @@
+# Backups and internal tracking
+osskey-backup/
+plans/
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.pkg
+*.pyz
+
+# Release archives (go on GitHub Releases, not in the repo)
+*.zip
+*.tar.gz
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Linter/formatter caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Release packaging copies (duplicates source)
+firmware_release/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
